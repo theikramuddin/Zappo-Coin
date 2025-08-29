@@ -37,13 +37,13 @@ const DexScreenerEmbed = () => (
       }
     `}</style>
     <div id="dexscreener-embed">
-      <iframe src="https://dexscreener.com/base/0xf13203ddbf2c9816a79b656a1a952521702715d92fea465b84ae2ed6e94a7f22?embed=1&loadChartSettings=0&info=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=0&chartType=usd&interval=15"></iframe>
+      <iframe src="https://dexscreener.com/solana/DX2qy4Kfqy23H3bDSgdWdQkkuWFR4Rq6KgSYMjM3ZQr2?embed=1&loadChartSettings=0&info=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=0&chartType=usd&interval=15"></iframe>
     </div>
   </div>
 );
 
 export default function Home() {
-  const contractAddress = "0xdf12f1C6xxxxxxxxxxxxxxxxxxxxxxxxxxx";
+  const contractAddress = "FkfRuh9eZWLvN1z6zcuaKDewzwmEfVrHykhg2s3opump";
 
   return (
     <div className="flex flex-col min-h-screen font-body text-lg text-foreground">
@@ -59,7 +59,7 @@ export default function Home() {
             <NavLink href="#roadmap">Roadmap</NavLink>
           </div>
           <Button asChild className="bg-primary hover:bg-primary/80 text-primary-foreground">
-            <Link href="#">Buy Now</Link>
+            <Link href="https://dexscreener.com/solana/dx2qy4kfqy23h3bdsgdwdqkkuwfr4rq6kgsymjm3zqr2">Buy Now</Link>
           </Button>
         </nav>
       </header>
@@ -92,10 +92,10 @@ export default function Home() {
                 <Link href="https://x.com/zappocoin?t=43daxcwHday1XDurE45pNw&s=09">X</Link>
               </Button>
               <Button asChild size="lg" variant="outline" className="text-lg py-6 border-2 border-foreground hover:bg-accent hover:text-accent-foreground">
-                <Link href="#">DEX</Link>
+                <Link href="https://dexscreener.com/solana/dx2qy4kfqy23h3bdsgdwdqkkuwfr4rq6kgsymjm3zqr2">DEX</Link>
               </Button>
               <Button asChild size="lg" className="text-lg py-6">
-                <Link href="#">BUY Zappo Coin</Link>
+                <Link href="https://dexscreener.com/solana/dx2qy4kfqy23h3bdsgdwdqkkuwfr4rq6kgsymjm3zqr2">BUY ZAPPO COIN</Link>
               </Button>
             </div>
           </div>
@@ -105,7 +105,7 @@ export default function Home() {
         <section className="py-12">
             <Card className="max-w-2xl mx-auto bg-card/50 border-2 border-dashed border-primary/50">
               <CardContent className="p-4">
-                <p className="text-muted-foreground text-sm">Zappo Coin Contract Address</p>
+                <p className="text-muted-foreground text-sm">Contract Address</p>
                 <p className="font-code text-primary text-sm md:text-lg break-all">{contractAddress}</p>
               </CardContent>
             </Card>
